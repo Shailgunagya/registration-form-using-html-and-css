@@ -3,7 +3,11 @@
     padding:0;
 
 }
-
+body{
+    background-image: url("image/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 div.main{
     width: 400px;
@@ -12,7 +16,7 @@ div.main{
 
 h2{
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     font-family: sans-serif;
 }
 
@@ -20,8 +24,8 @@ div.register{
     background-color:rgba(0,0,0,0.5);
     width: 100%;
     font-size: 18px;
-    border-radius: 10px;
-    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 30px;
+    border: 10px solid rgba(255,255,255,0.3);
     box-shadow: 2px 2px 15px
     rgba(0,0,0,0.3);
     color: #fff;
@@ -38,7 +42,7 @@ label{
 }
 
 input#name{
-    width: 300px;
+    width: 500px;
     border:1px solid #ddd;
     border-radius: 3px;
     outline: 0;
@@ -51,7 +55,7 @@ input#name{
 
 input#submit{
     width: 200px;
-    padding:7px;
+    padding: 10px;
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
@@ -69,4 +73,61 @@ input#submit{
 label,span,h2{
     text-shadow: 1px 1px 5px 
     rgba(0,0,0,0.3);
+}
+
+.center{
+    display: grid;
+    justify-content:center;
+    
+    
+    
+}
+.block{
+    display: block;
+    
+}
+
+.lname{
+    display:grid;
+    justify-content: center;
+}
+.lastN{
+    display:block;
+}
+
+.ag{
+    display: grid;
+    justify-content: center;
+}
+
+.YourA{
+    display: block;
+}
+
+.em{
+    display: grid;
+    justify-content: center;
+}
+
+.Yourem{
+    display: block;
+}
+
+.gen{
+    display: grid;
+    justify-content: center;
+}
+
+.Yourgen{
+    display: block;
+}
+
+.ma{
+    display: grid;
+    justify-content: center;
+}
+
+
+.ip{
+    vertical-align: middle;
 }
